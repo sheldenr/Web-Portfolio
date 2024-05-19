@@ -500,6 +500,7 @@ html {
         width: 70px;
         height: 100px;
         margin-left: auto;
+        flex-grow: 1;
     }
     
     #tech-stack-icon {
@@ -533,6 +534,7 @@ html {
         align-items: center;
         justify-content: center;
         margin-top: 20px;
+        flex-grow: 1;
     }
     
     #about-me {
