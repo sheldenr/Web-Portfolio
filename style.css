@@ -1,8 +1,8 @@
-html {
-    scroll-behavior: smooth;
-}
-
 @media (orientation: landscape) {
+    html {
+        scroll-behavior: smooth;
+    }
+
     body {
         font-family: Montserrat;
         color: #303030;
@@ -329,6 +329,10 @@ html {
 }
 
 @media (orientation: portrait) {
+    html {
+        scroll-behavior: smooth;
+    }
+
     body {
         font-family: Montserrat;
         color: #303030;
