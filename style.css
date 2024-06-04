@@ -2,7 +2,7 @@
     @media (min-width: 1000px) {
         body {
             margin: 0;
-            background: #04100B;
+            background: #030a08;
             font-family: "Urbanist";
         }
     
@@ -127,7 +127,7 @@
         }
     
         #download:hover {
-            color: #04100B;
+            color: #030a08;
             background: #B6E3CD;
             border: solid 1px #00000000;
         }
@@ -185,7 +185,7 @@
     
         #skill:hover {
             background: #F5F5F5;
-            color: #04100B;
+            color: #030a08;
         }
     
         #skill-icon {
@@ -246,7 +246,7 @@
     
             background: #B6E3CD;
             font-size: 14px;
-            color: #04100B;
+            color: #030a08;
             padding: 6px;
             padding-left: 24px;
             padding-right: 24px;
@@ -256,7 +256,7 @@
     
         #view-projects:hover {
             color: #F5F5F5;
-            background: #04100B;
+            background: #030a08;
             outline: solid 1px #F5F5F5;
             outline-offset: -1px;
             
@@ -299,7 +299,7 @@
     
         #contact-link:hover {
             background: #B6E3CD;
-            color: #04100B;
+            color: #030a08;
         }
         
         #copyright {
@@ -313,7 +313,7 @@
     @media (max-width: 999px) {
         body {
             margin: 0;
-            background: #04100B;
+            background: #030a08;
             font-family: "Urbanist";
         }
     
@@ -438,7 +438,7 @@
         }
     
         #download:hover {
-            color: #04100B;
+            color: #030a08;
             background: #B6E3CD;
             border: solid 1px #00000000;
         }
@@ -496,7 +496,7 @@
     
         #skill:hover {
             background: #F5F5F5;
-            color: #04100B;
+            color: #030a08;
         }
     
         #skill-icon {
@@ -557,7 +557,7 @@
     
             background: #B6E3CD;
             font-size: 14px;
-            color: #04100B;
+            color: #030a08;
             padding: 6px;
             padding-left: 24px;
             padding-right: 24px;
@@ -567,7 +567,7 @@
     
         #view-projects:hover {
             color: #F5F5F5;
-            background: #04100B;
+            background: #030a08;
             outline: solid 1px #F5F5F5;
             outline-offset: -1px;
             
@@ -610,7 +610,7 @@
     
         #contact-link:hover {
             background: #B6E3CD;
-            color: #04100B;
+            color: #030a08;
         }
         
         #copyright {
@@ -624,7 +624,7 @@
     @media (max-width: 600px) {
         body {
             margin: 0;
-            background: #04100B;
+            background: #030a08;
             font-family: "Urbanist";
             text-align: center;
             transition: 1s;
@@ -759,7 +759,7 @@
         }
     
         #download:hover {
-            color: #04100B;
+            color: #030a08;
             background: #B6E3CD;
             border: solid 1px #00000000;
         }
@@ -817,7 +817,7 @@
     
         #skill:hover {
             background: #F5F5F5;
-            color: #04100B;
+            color: #030a08;
         }
     
         #skill-icon {
@@ -877,7 +877,7 @@
     
             background: #B6E3CD;
             font-size: 14px;
-            color: #04100B;
+            color: #030a08;
             padding: 6px;
             padding-left: 24px;
             padding-right: 24px;
@@ -887,7 +887,7 @@
     
         #view-projects:hover {
             color: #F5F5F5;
-            background: #04100B;
+            background: #030a08;
             outline: solid 1px #F5F5F5;
             outline-offset: -1px;
             
@@ -931,7 +931,7 @@
     
         #contact-link:hover {
             background: #B6E3CD;
-            color: #04100B;
+            color: #030a08;
         }
         
         #copyright {
@@ -945,7 +945,7 @@
     @media (max-width: 400px) {
         body {
             margin: 0;
-            background: #04100B;
+            background: #030a08;
             font-family: "Urbanist";
             text-align: center;
             transition: 1s;
@@ -1080,7 +1080,7 @@
         }
     
         #download:hover {
-            color: #04100B;
+            color: #030a08;
             background: #B6E3CD;
             border: solid 1px #00000000;
         }
@@ -1138,7 +1138,7 @@
     
         #skill:hover {
             background: #F5F5F5;
-            color: #04100B;
+            color: #030a08;
         }
     
         #skill-icon {
@@ -1198,7 +1198,7 @@
     
             background: #B6E3CD;
             font-size: 14px;
-            color: #04100B;
+            color: #030a08;
             padding: 6px;
             padding-left: 24px;
             padding-right: 24px;
@@ -1208,7 +1208,7 @@
     
         #view-projects:hover {
             color: #F5F5F5;
-            background: #04100B;
+            background: #030a08;
             outline: solid 1px #F5F5F5;
             outline-offset: -1px;
             
@@ -1252,7 +1252,7 @@
     
         #contact-link:hover {
             background: #B6E3CD;
-            color: #04100B;
+            color: #030a08;
         }
         
         #copyright {
