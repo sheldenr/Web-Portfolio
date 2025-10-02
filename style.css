@@ -4,8 +4,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #16191a;
-    --text: #e0dddd;
+    --bg: #272727;
+    --text: #f8e6d3;
+
+    --section-divider-color: rgba(224, 221, 221, 0.079);
+    --project-divider-color: rgba(224, 221, 221, 0.3);
   }
 }
 
@@ -13,6 +16,9 @@
   :root {
     --bg: #ffffff;
     --text: #1d1d1d;
+
+    --section-divider-color: rgba(35, 35, 35, 0.079);
+    --project-divider-color: rgba(35, 35, 35, 0.3);
   }
 }
 
@@ -20,24 +26,24 @@
 
 @media screen and (max-width: 768px) {
   /* 0 to 768 width */
-  body {
-    margin: 7vh auto 0;
+  .contents {
+    margin: 3vh auto 0;
     width: 85vw;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1500px) {
   /* 769 to 1500 width */
-  body {
-    margin: 10vh auto 0;
+  .contents {
+    margin: 5vh auto 0;
     width: 42.5vw;
   }
 }
 
 @media screen and (min-width: 1501px) {
   /* 1500+ width */
-  body {
-    margin: 13vh auto 0;
+  .contents {
+    margin: 5vh auto 0;
     width: 35vw;
   }
 }
@@ -45,13 +51,27 @@
 
 /* Static Class Styling */
 
+::selection {
+  background-color: #8eb199; 
+  color: #333333;
+}
+
+html {
+  height: 100vh;
+}
+
 body {
   transition: width 0.2s ease-in-out;
-  font-family: "Figtree";
+  overflow-x: hidden;
+  font-family: "Quattrocento";
+  font-size: 0.95rem;
   line-height: 1.5rem;
   background: var(--bg);
   color: var(--text);
-  
+  min-height: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
 }
 
 p {
@@ -59,7 +79,7 @@ p {
 }
 
 section {
-  margin: 2.5rem 0;
+  margin: 2.5rem 0 0;
 }
 
 .profile-picture {
@@ -67,8 +87,34 @@ section {
   border-radius: 50%;
   overflow: hidden;
   margin: 0.5rem 0;
+  border: 1px solid var(--text);
 }
 
 .section-title {
   font-weight: 600;
+  color: b8bb2w;
+  /* font-style: italic; */
 }
+
+.project {
+    background-color: var(--section-divider-color);
+    margin: 0.5rem 0rem 0rem 0rem;
+    padding: 1.4rem;
+    
+}
+
+.divider {
+    border-top: 1px solid var(--section-divider-color);
+    margin-top: 10rem;
+    width: 100vw;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+
