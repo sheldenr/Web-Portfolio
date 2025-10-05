@@ -37,6 +37,10 @@
     font-size: 0.95rem;
     width: 85vw; /* change bc should get smaller based on screen w */
   }
+
+  .gui {
+    justify-content: flex-end;
+  }
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1500px) {
@@ -63,6 +67,7 @@
 }
 
 html {
+  margin: 0;
   height: 100vh;
 }
 
@@ -71,6 +76,7 @@ html {
 }
 
 body {
+  margin: 0;
   transition: width 0.2s ease-in-out;
   overflow-x: hidden;
   font-family: "Chivo Mono";
@@ -180,6 +186,10 @@ a {
     font-weight: 600;
 }
 
+.faded {
+  color: var(--project-divider-color) !important;
+}
+
 .ring {
   display: block;
   border-radius: 50%;
@@ -198,4 +208,20 @@ a {
 .right-align {
   flex: 1;
   text-align: right;
+}
+
+.gui {
+  position: absolute;
+  display: flex;
+  /* justify-content: flex-end; */
+  gap: 1rem;
+  top: 25px;
+  left: 0;
+  right: 0;
+  padding: 0 25px;
+  overflow: hidden;
+} 
+
+.remove-underline {
+  text-decoration: none !important;
 }
