@@ -228,3 +228,7 @@ a {
 .remove-underline {
   text-decoration: none !important;
 }
+
+.blog-post-description {
+  margin-bottom: 10px;
+}
