@@ -2,6 +2,18 @@
 
 /* Variable Constants */
 
+/* Prefer light color scheme */
+:root {
+  --bg: rgb(236, 238, 238);
+  --text: #3c3c3c;
+  --title-text: #333333;
+  
+  --accent-color: #799983;
+
+  --section-divider-color: rgba(35, 35, 35, 0.079);
+  --project-divider-color: rgba(35, 35, 35, 0.3);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #1e1d1d;
@@ -12,19 +24,6 @@
 
     --section-divider-color: rgba(224, 221, 221, 0.079);
     --project-divider-color: rgba(224, 221, 221, 0.3);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg: rgb(236, 238, 238);
-    --text: #3c3c3c;
-    --title-text: #333333;
-    
-    --accent-color: #799983;
-
-    --section-divider-color: rgba(35, 35, 35, 0.079);
-    --project-divider-color: rgba(35, 35, 35, 0.3);
   }
 }
 
@@ -72,7 +71,11 @@ html {
 }
 
 * {
-  transition: all 0.4s ease;
+  transition: none;
+}
+
+a, button, .highlight { 
+  transition: color 0.4s ease, background-color 0.4s ease;
 }
 
 body {
