@@ -237,6 +237,73 @@ a {
   margin-bottom: 8rem;
 }
 
+.stats-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+  margin: 2rem 0;
+}
+
+.stat-quote {
+  margin: 0;
+  padding: 0.35rem 0 0.35rem 1rem;
+  border-left: 3px solid var(--accent-color);
+}
+
+.stat-value {
+  font-weight: 500;
+  color: var(--title-text);
+  line-height: 1.1;
+  margin-bottom: 0.3rem;
+}
+
+.stat-value-primary {
+  font-size: 2.45rem;
+}
+
+.stat-caption {
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+
+.cta-card {
+  background-color: color-mix(in srgb, var(--section-divider-color) 30%, transparent);
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 1.6rem 1.3rem;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 0.2rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid var(--project-divider-color);
+  color: var(--text) !important;
+  text-decoration: none !important;
+  font-weight: 600;
+}
+
+.cta-button:hover {
+  background-color: var(--section-divider-color);
+}
+
+.cta-link-icon {
+  margin-left: 0.35rem;
+  font-size: 0.82em;
+}
+
+@media screen and (max-width: 680px) {
+  .stats-wrap {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 .project-container {
   background-color: transparent;
   margin: 0.6rem 0;
