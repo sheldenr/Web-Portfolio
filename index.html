@@ -90,7 +90,7 @@
         <div class="divider" style="margin-top: 5rem;"></div>
         <div class="contents" style="margin-top: 0; margin-bottom: 0;">
             <div class="footer-contents">
-                <p class="left-align">Shelden Rattray © 2026</p>
+                <p class="left-align">Shelden Rattray © <span class="copyright-year"></span></p>
                 <a class="right-align" href="https://www.linkedin.com/in/shelden-rattray" target="_blank">LinkedIn</a>
             </div>
         </div>
@@ -100,5 +100,10 @@
         <p class="gui-element remove-underline">/home</p>
         <a class="gui-element remove-underline faded" href="blogs.html">/blog</a>
     </div>
+    <script>
+        document.querySelectorAll(".copyright-year").forEach((element) => {
+            element.textContent = new Date().getFullYear();
+        });
+    </script>
 </body>
 </html>
