@@ -1,24 +1,24 @@
 :root {
-  --bg: rgb(236, 238, 238);
-  --text: #3c3c3c;
-  --title-text: #333333;
+  --bg: #171616;
+  --text: #919191;
+  --title-text: #f4f4f4;
   
-  --accent-color: #658770;
+  --accent-color: #8eb199;
 
-  --section-divider-color: rgba(35, 35, 35, 0.079);
-  --project-divider-color: rgba(35, 35, 35, 0.3);
+  --section-divider-color: rgba(224, 221, 221, 0.079);
+  --project-divider-color: rgba(224, 221, 221, 0.3);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --bg: #1e1d1d;
-    --text: #919191;
-    --title-text: #f4f4f4;
+    --bg: rgb(236, 238, 238);
+    --text: #3c3c3c;
+    --title-text: #333333;
 
-    --accent-color: #8eb199;
+    --accent-color: #658770;
 
-    --section-divider-color: rgba(224, 221, 221, 0.079);
-    --project-divider-color: rgba(224, 221, 221, 0.3);
+    --section-divider-color: rgba(35, 35, 35, 0.079);
+    --project-divider-color: rgba(35, 35, 35, 0.3);
   }
 }
 
@@ -306,11 +306,15 @@ a {
 
 .project-container {
   background-color: transparent;
-  margin: 0.6rem 0;
+  margin: 0;
   overflow: hidden;
   transition: all 0.3s ease;
-  border: 1px solid var(--section-divider-color);
-  border-radius: 5px;
+  border-top: 1px solid var(--section-divider-color);
+  padding: 0.5rem 0;
+}
+
+.project-container:first-of-type {
+  margin-top: 1.5rem;
 }
 
 .project-header {
@@ -318,7 +322,7 @@ a {
   justify-content: space-between;
   align-items: flex-start;
   gap: 0.8rem;
-  padding: 0.8rem;
+  padding: 0.2rem 0;
   cursor: pointer;
   user-select: none;
   transition: background-color 0.3s ease;
@@ -327,7 +331,6 @@ a {
 }
 
 .project-header:hover {
-  background-color: color-mix(in srgb, var(--bg) 95%, var(--accent-color) 5%);
   text-decoration: none !important;
 }
 
@@ -347,7 +350,8 @@ a {
   font-size: 0.6rem;
   font-weight: 600;
   padding: 0.35rem 0.5rem;
-  background-color: var(--section-divider-color);
+  background-color: transparent;
+  border: 1px solid var(--section-divider-color);
   border-radius: 0;
   color: var(--text);
   text-transform: uppercase;
