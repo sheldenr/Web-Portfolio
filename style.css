@@ -247,7 +247,7 @@ a {
 .stat-quote {
   margin: 0;
   padding: 0.35rem 0 0.35rem 1rem;
-  border-left: 3px solid var(--accent-color);
+  border-left: 3px solid var(--section-divider-color);
 }
 
 .stat-value {
