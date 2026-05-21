@@ -9,19 +9,6 @@
   --project-divider-color: rgba(224, 221, 221, 0.3);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg: rgb(236, 238, 238);
-    --text: #3c3c3c;
-    --title-text: #333333;
-
-    --accent-color: #658770;
-
-    --section-divider-color: rgba(35, 35, 35, 0.079);
-    --project-divider-color: rgba(35, 35, 35, 0.3);
-  }
-}
-
 @media screen and (max-width: 1000px) {
   .contents {
     margin: 3vh auto 0;
@@ -112,11 +99,9 @@ section {
 }
 
 .contact-list {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0 0;
   display: flex;
   gap: 1.5rem;
+  margin-top: 1rem;
 }
 
 .signature-container {
@@ -223,9 +208,10 @@ a {
 }
 
 .highlight  {
-  background-color: #f4f4f4;
-  padding: 2px 4px;
-  color: #171616 !important;
+  background-color: color-mix(in srgb, var(--title-text) 85%, transparent);
+  padding: 2px 5px;
+  border-radius: 4px;
+  color: var(--bg) !important;
   text-decoration: none !important;
 }
 
