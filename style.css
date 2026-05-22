@@ -24,14 +24,14 @@
 @media screen and (min-width: 1000px) and (max-width: 1500px) {
   .contents {
     margin: 5vh auto 0;
-    width: 35vw;
+    width: 28vw;
   }
 }
 
 @media screen and (min-width: 1500px) {
   .contents {
     margin: 5vh auto 0;
-    width: 25vw;
+    width: 28vw;
   }
 }
 
@@ -429,6 +429,7 @@ a {
   color: var(--title-text);
   font-size: 0.9rem;
   transition: color 0.3s ease;
+  white-space: nowrap;
 }
 
 .project-header:hover .project-name {
